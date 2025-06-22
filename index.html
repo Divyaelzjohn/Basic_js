@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!-- <h2>JavaScript Variable</h2>
+        <p>In this example, x is defined as a variable.Ten,x is assigned the value of 6:</p>
+        <p id="demo"></p> -->
+        <!-- <h2>Redeclaring a ariable using let</h2> -->
+         <!-- <h2>JavaScript const</h2>
+         <p>With <b>var</b>, you can use a variable before it is declared:</p>
+        <p id="demo"></p> -->
+        <!-- <h1>JavaScript Operators</h1>
+        <h2>The = Operator</h2> -->
+        <!-- <h1>JavaScript String Operations</h1>
+        <h2>The += Operator</h2>
+        <p>The assignment Operator += can concatenete strings.</p>
+        <p id="demo"></p> -->
+        <h1>JavaScript Functions</h1>
+        <p>Invoke (call) a function to convert from Fahrenheit to celsius:</p>
+        <!-- <p id="demo"></p> -->
+         <p id="demo1"></p>
+         <p id="demo2"></p>
+        <script>
+          // let x;
+          // x=6;
+          // document.getElementById("demo").innerHTML=x;
+          // document.getElementById("demo").innerHTML=5*10;
+          // document.getElementById("myH").innerHTML="JavaScript Comments";
+          // document.getElementById("myP").innerHTML="My first paragraph.";
+          // let x=5;
+          // let y=x+2;
+          // document.getElementById("demo").innerHTML=y;
+          // var x=5;
+          // var y=6;
+          // var z=x+y;
+          // document.getElementById("demo").innerHTML="The value of z is: " +z;
+          // let x=5;
+          // let y=6;
+          // let z=x+y;
+          // document.getElementById("demo").innerHTML="The value of z is: "+z;
+          // const x=5;
+          // const y=6;
+          // const z=x+y;
+          // document.getElementById("demo").innerHTML="The value of z is:"
+          // const price1=5;
+          // const price2=6;
+          // let total=price1+price2;
+          // document.getElementById("demo").innerHTML="The total is: "+total;
+          // let carName="Volvo";
+          // document.getElementById("demo").innerHTML=carName;
+          // let person="John Doe", carName="Volve",price=200;
+          // let perosn="Volvo",
+          // price200;
+          // let carName;
+          // let x=5+2+3;
+          // document.getElementById("demo").innerHTML=x;
+          // let x="John"+" "+"Doe" ;
+          // document.getElementById("demo").innerHTML=x;
+          // let $$$=2;
+          // let $myMoney=5;
+          // document.getElementById("demo").innerHTML=$$$+$myMoney;
+          // let _x=2;
+          // let _100=5;
+          // document.getElementById("demo").innerHTML=_x+_100;
+          // try{
+          //   const PI=3.141592653589793;
+          //   PI=3,14
+          // }
+          // catch(err){
+          //   document.getElementById("demo").innerHTML=err;
+          // }
+          // const car = {type:"Fiat", model:"500", color:"white"};
+          // car.color = "red";
+          // car.owner = "Johnson";
+          // document.getElementById("demo").innerHTML = "Car owner is " + car.owner; 
+          // const x=2;
+          // x=2;
+          // var x=2;
+          // let x=2;
+          // const x=2;
+          // {
+          //   const x=2;
+          //   x=2;
+          //   var x=2;
+          //   let x=2;
+          //   const x=2;
+          // }
+          // carName="Volvo";
+
+          // document.getElementById("demo").innerHTML=carName;
+          // var carName;
+          // let x=10;
+          // document.getElementById("demo").innerHTML=x;
+          // let x=5;
+          // let y=2;
+          // let z=x*y;
+          // document.getElementById("demo").innerHTML=z;
+          // var x=10;
+          // x+=5;
+          // document.getElementById("demo").innerHTML=x;
+          // let text1="A";
+          // let text2="B";
+          // let result=text1<text2;
+          // document.getElementById("demo").innerHTML="Is A less than B?"+result;
+          // let text1="20";
+          // let text2="5";
+          // let result=text1< text2;
+          // document.getElementById("demo").innerHTML="Is 20 less than 5?" +result
+          // let text1="John"
+          // let text2="Doe"
+          // let text3=text1+" "+text2;
+          // document.getElementById("demo").innerHTML=text3;
+          // let text1="What a very";
+          // text1+="nice day";
+          // text1 +="nice day";document.getElementById("demo").innerHTML=text1;
+          // let x=5+5;
+          // let y="5"+5;
+          // let z="Hello"+5;document.getElementById("demo").innerHTML=x+ "<br>"+y+"<br>"+z;
+          // let x=100+50;
+          // document.getElementById("demo").innerHTML=x;
+          // let a=3;
+          // let x=(100+50)*a;
+          // document.getElementById("demo").innerHTML=x;
+          // let x=5;
+          // let y=2;
+          // let z=x%y;
+          // document.getElementById("demo").innerHTML=z;
+          // let x=5;
+          // document.getElementById("demo").innerHTML=x**2;
+          // let x=5;
+          // document.getElementById("demo").innerHTML= 100+50*3;
+          // document.getElementById("demo").innerHTML=(100+50)*3;
+          // document.getElementById("demo").innerHTML=100/50*3;
+          // let x=10;
+          // document.getElementById("demo").innerHTML="Value of x is" +x;
+          // let x=10;
+          // document.getElementById("demo").innerHTML="Value of x is "+x;
+          // let x=10;
+          // x+=5;
+          // document.getElementById("demo").innerHTML="Value of x is: " +x;
+          // let text="Hello"
+          // text += "world";
+          // document.getElementById("demo").innerHTML=text;
+          // let x=10;
+          // x %=5;
+          // document.getElementById("demo").innerHTML= "value of x is "+x;
+          // let x=100;
+          // x ^= 5;
+          // document.getElementById("demo").innerHTML="Value of x is :" +x;
+          // let x = undefined;
+          // x ??= 5;
+          // document.getElementById("demo").innerHTML = "Value of x is: " + x;
+          // let length=16;
+          // let weight=7.5;
+          // let color="Yellow"
+          // let lastName="Johnson"
+          // let x=true
+          // let y=false
+          // const person={firstName:"John",lastName:"Doe"}
+          // const cars=["saab","Volvo","BMW"]
+          // const date=new Date("2022-03-25");
+          // let x="Volvo"+16;
+          // document.getElementById("demo").innerHTML=x;
+          // let x=16+4+"Volvo"
+          // document.getElementById("demo").innerHTML=x;
+          // let x="Volvo" + 16 + 4
+          // document.getElementById("demo").innerHTML=x;
+          // let x;
+          // x=5;
+          // x="John";
+          // document.getElementById("demo").innerHTML=x;
+          // let carName1="Volvo XC60"
+          // let carName2='Volvo XC60'
+          // document.getElementById("demo").innerHTML=
+          // carName1+"<br>"+carName2;
+          // let answer1="It's alright";
+          // let answer2="he is called 'Johnny'"
+          // let answer3='he is called "Johnny"'
+          // document.getElementById("demo").innerHTML=answer1+"<br>"+answer2+"<br>"+answer3;
+          // let x1=34.00;
+          // let x2=34;
+          // let x3=3.14;
+          // document.getElementById("demo").innerHTML=x1+"<br>"+x2+"<br>"+x3;
+          // let y=123e5
+          // let z=123e-5
+          // document.getElementById("demo").innerHTML=y+"<br>"+z
+          // let x=BigInt("123456789012345678901234567890")
+          // document.getElementById("demo").innerHTML=x
+          // let x=5;
+          // let y=5;
+          // let z=6;
+          // document.getElementById("demo").innerHTML=(x==y)+"<br>"+(x==z)
+          // const cars=["Saab","Volvo","BMW"];
+          // document.getElementById("demo").innerHTML=cars[0];
+          // const person={firstName:"John",lastName:"Doe",age:50,eyeColor:"blue"}
+          // document.getElementById("demo").innerHTML=person.firstName+" is"+person.age+"years old.";
+          // document.getElementById("demo").innerHTML=typeof""+"<br>"+typeof"John"+"<br>"+typeof"John Doe";
+          // document.getElementById("demo").innerHTML=
+          // typeof 0+"<br>"+typeof 314+"<br>"+typeof 3.14+"<br>"+typeof (3+4)+typeof(3)+"<br>"
+          // let car;
+          // document.getElementById("demo").innerHTML=car+"<br>"+typeof car;
+          // let car=""
+          // document.getElementById("demo").innerHTML="The value is: "+car+"<br>"+"The type is: "+typeof car;
+          // let car="Volvo"
+          // car=undefined
+          // document.getElementById("demo").innerHTML=
+          // "<p>The value of car is "+car+
+          //   "<p>The type of car is "+typeof car;
+            // let car=""
+            // document.getElementById("demo").innerHTML=
+            // "The value is: "+car+ "<br>"+"The type is: "+typeof car;
+          //  function myFunction(p1,p2){
+          //   return p1*p2;
+          //  }
+          //  let result =myFunction(4,3);
+          //  document.getElementById("demo").innerHTML=result
+
+          // let x=myFunction(4,3);
+          // document.getElementById("demo").innerHTML=x
+          // function myFunction(a,b){
+          //   return a*b
+          // }
+          // function toCelsius(f){
+          //   return (5/9)*(f-32);
+          // }
+          // let value=toCelsius(77)
+          // document.getElementById("demo").innerHTML=value;
+
+          // function toCelsius(f){
+          //   return (5/9)*(f-32)
+          // }
+          // let value=toCelsius()
+          // document.getElementById("demo").innerHTML=value
+
+          // function toCelsius(f){
+          //   return(5/9)*(f-32)
+          // }
+          // let value=toCelsius
+          // document.getElementById("demo").innerHTML=value
+          // let text="The temperature is "+toCelsius(77)+"Celsius"
+          // document.getElementById("demo").innerHTML=text
+          // function toCelsius(fahrenheit){
+          //   return(5/9)*(fahrenheit-32)
+          // }
+          // let text="outside:"+typeof carName;
+          // document.getElementById("demo1").innerHTML=text
+          // function myFunction(){
+          //   let carName="Volvo"
+          //   let text = "Inside: " + typeof carName + " " + carName; 
+          //   document.getElementById("demo2").innerHTML = text;
+          // }
+          let car="Fiat"
+          document.getElementById("demo").innerHTML="Car: "+car;
+
+        </script>
+    </body>
+</html>
+
